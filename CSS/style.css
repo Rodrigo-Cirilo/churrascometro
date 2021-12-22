@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("../assets/fotoCapa.png");  
+    background-repeat: no-repeat;
+    background-size: cover;   
+    width: 100%;
+    height: 100%;
+}
+
+#container{
+    margin: auto;
+    width: 500px;
+    /* height: 550px; */
+    padding-bottom: 30px;
+    margin-top: 20px;
+    background-color: #d7cad4a9;
+    border-radius: 7%;
+    border: 1px solid #E01400;
+    
+}
+
+#containerInputs{
+    text-align: center;
+    box-sizing: border-box;
+}
+.pChurrascometro{
+    padding-top: 20px;
+    font-size: 2.5rem;
+    text-align: center;
+    text-shadow: 0 0 5px #E01400;
+   
+}
+
+#pessoas{
+   background-image: url("../assets/pessoas.png");
+   background-repeat: no-repeat;  
+    background-size: 28px;
+    background-position: 7px 3px ;
+    padding: 5px 5px 8px 8px;
+    padding-left: 45px;
+    border: none;
+    border-radius: 7px;
+    font-size: 20px;
+    text-align: center;
+    margin: 15px;
+    
+}
+
+#crianças{
+    background-image: url("../assets/children.png");
+    background-repeat: no-repeat;  
+     background-size: 28px;
+     background-position: 7px 3px ;
+     padding: 5px 5px 8px 8px;
+     padding-left: 45px;
+     border: none;
+     border-radius: 7px;
+     font-size: 20px;
+     text-align: center;
+     margin: 15px;
+ }
+
+ #duração{
+    background-image: url("../assets/clock.png");
+    background-repeat: no-repeat;  
+     background-size: 28px;
+     background-position: 7px 3px ;
+     padding: 5px 5px 8px 8px;
+     padding-left: 45px;
+     border: none;
+     border-radius: 7px;
+     font-size: 20px;
+     text-align: center;
+     margin: 15px;
+ }
+
+ #btnCalcular{
+     width: 150px;
+     height: 60px;
+     font-size: 1.5rem;   
+     
+     text-align: center;
+     cursor: pointer;
+     padding: 10px;
+     border-radius: 7%;
+     border: none;
+     background-image: linear-gradient(to right, rgba(210,24,11,0), rgba(255,153,0,1));
+   
+     
+     
+    
+ }
+
+ #btnLimpar{
+    width: 130px;
+    height: 50px;
+    font-size: 1.2rem;   
+    
+    text-align: center;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 7%;
+    border: none;
+    margin-top: 20px;
+    background-image: linear-gradient(to right, rgba(210,24,11,0), rgba(255,153,0,1));
+   
+}
+
+ #divResult{
+     font-family: "Poppins";
+     font-weight: bold;
+     padding-top: 20px;
+     text-align: center;
+     display: none;
+ }
+
+ .paragrafo{
+     font-size: 20px;
+     
+ }
+
+ #carneResult, #drinkResult, #refriResult{
+     font-size: 1.3rem;
+     padding-top: 30px;
+     padding-left: 150px ;
+    text-align: left;
+    text-shadow: 0 0 1px rgb(229, 255, 0);
+ }
